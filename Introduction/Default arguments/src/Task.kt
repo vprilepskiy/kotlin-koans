@@ -1,4 +1,6 @@
-fun foo(name: String, number: Int, toUpperCase: Boolean) =
+import java.lang.Boolean.FALSE
+
+fun foo(name: String, number: Int = 42, toUpperCase: Boolean = FALSE) =
         (if (toUpperCase) name.uppercase() else name) + number
 
 fun useFoo() = listOf(

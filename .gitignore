@@ -72,4 +72,4 @@ kotlin-ide/
 *.xml
 *.bin
 *.yaml
-*.lock
+*.lockdebug.log 
